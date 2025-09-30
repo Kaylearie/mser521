@@ -1,0 +1,106 @@
+Officer ID,Race,Gender,Reason,Outcome
+1017.0,BLACK,FEMALE,SPEEDING,ticket
+1011.0,BLACK,MALE,suspicious activity,arrest
+,WHITE,female,traffic violation,warning
+1009.0,WHITE,nonbinary,suspicious activity,ticket
+1018.0,WHITE,MALE,traffic violation,ticket
+1006.0,black,female,suspicious activity,warning
+1008.0,BLACK,female,speeding,ARREST
+1013.0,ASIAN,NONBINARY,NAN,TICKET
+1010.0,black,female,NAN,ticket
+1008.0,WHITE,NONBINARY,speeding,warning
+1020.0,black,female,SUSPICIOUS ACTIVITY,nan
+1007.0,white,NONBINARY,suspicious activity,WARNING
+1004.0,BLACK,FEMALE,suspicious activity,ARREST
+1010.0,black,FEMALE,TRAFFIC VIOLATION,TICKET
+1019.0,BLACK,nonbinary,TRAFFIC VIOLATION,ticket
+,black,FEMALE,SUSPICIOUS ACTIVITY,arrest
+1016.0,asian,nonbinary,SPEEDING,TICKET
+1004.0,black,nonbinary,SUSPICIOUS ACTIVITY,TICKET
+1004.0,asian,NONBINARY,SPEEDING,NAN
+1004.0,WHITE,MALE,SPEEDING,ARREST
+1020.0,black,female,SPEEDING,TICKET
+1020.0,LATINO,NONBINARY,SPEEDING,WARNING
+1002.0,latino,FEMALE,SUSPICIOUS ACTIVITY,ARREST
+1011.0,nan,MALE,speeding,WARNING
+1011.0,black,nan,traffic violation,ARREST
+1013.0,latino,nonbinary,SUSPICIOUS ACTIVITY,ticket
+,black,MALE,SUSPICIOUS ACTIVITY,arrest
+1003.0,WHITE,FEMALE,TRAFFIC VIOLATION,nan
+1005.0,white,nonbinary,traffic violation,WARNING
+1019.0,WHITE,NONBINARY,speeding,TICKET
+1013.0,WHITE,NAN,TRAFFIC VIOLATION,warning
+1017.0,WHITE,female,SPEEDING,ARREST
+1001.0,ASIAN,MALE,nan,NAN
+1009.0,nan,nonbinary,suspicious activity,warning
+1004.0,NAN,female,speeding,ARREST
+,BLACK,NONBINARY,TRAFFIC VIOLATION,ticket
+1019.0,NAN,nonbinary,TRAFFIC VIOLATION,warning
+1012.0,BLACK,MALE,speeding,TICKET
+1011.0,asian,male,SPEEDING,nan
+1015.0,latino,NONBINARY,TRAFFIC VIOLATION,arrest
+1016.0,white,nonbinary,speeding,ticket
+1007.0,black,male,suspicious activity,ARREST
+1019.0,ASIAN,nonbinary,SPEEDING,WARNING
+1017.0,latino,NONBINARY,traffic violation,warning
+1003.0,black,male,traffic violation,nan
+1020.0,ASIAN,female,traffic violation,arrest
+1012.0,asian,MALE,SPEEDING,warning
+1019.0,black,NAN,nan,ticket
+1014.0,black,male,speeding,ARREST
+1019.0,nan,NONBINARY,nan,NAN
+1011.0,LATINO,nonbinary,suspicious activity,ARREST
+1003.0,ASIAN,MALE,nan,warning
+1016.0,white,FEMALE,SUSPICIOUS ACTIVITY,arrest
+1016.0,asian,MALE,suspicious activity,warning
+1017.0,white,male,traffic violation,warning
+1019.0,WHITE,female,SUSPICIOUS ACTIVITY,WARNING
+1019.0,latino,female,SPEEDING,WARNING
+1008.0,white,FEMALE,TRAFFIC VIOLATION,ticket
+1006.0,black,MALE,SUSPICIOUS ACTIVITY,WARNING
+1018.0,latino,FEMALE,nan,warning
+1007.0,latino,NAN,suspicious activity,WARNING
+1015.0,WHITE,nan,traffic violation,WARNING
+1011.0,white,FEMALE,speeding,arrest
+1017.0,black,nonbinary,SPEEDING,ticket
+1016.0,ASIAN,FEMALE,suspicious activity,ARREST
+1016.0,ASIAN,male,suspicious activity,arrest
+,asian,nan,SPEEDING,TICKET
+1002.0,white,MALE,TRAFFIC VIOLATION,ticket
+1008.0,black,female,traffic violation,arrest
+1012.0,asian,nonbinary,SUSPICIOUS ACTIVITY,arrest
+1002.0,BLACK,nonbinary,SUSPICIOUS ACTIVITY,WARNING
+1002.0,black,FEMALE,TRAFFIC VIOLATION,ARREST
+,nan,NONBINARY,TRAFFIC VIOLATION,TICKET
+1018.0,asian,NAN,speeding,nan
+1015.0,BLACK,NONBINARY,traffic violation,warning
+1008.0,ASIAN,MALE,suspicious activity,ARREST
+1015.0,WHITE,female,speeding,warning
+1015.0,WHITE,MALE,SUSPICIOUS ACTIVITY,arrest
+,latino,female,traffic violation,warning
+1008.0,latino,MALE,traffic violation,NAN
+1014.0,black,MALE,SUSPICIOUS ACTIVITY,TICKET
+1003.0,black,male,traffic violation,TICKET
+1004.0,nan,nonbinary,speeding,ARREST
+1011.0,NAN,NONBINARY,SPEEDING,WARNING
+1013.0,asian,male,SUSPICIOUS ACTIVITY,warning
+1015.0,BLACK,nan,nan,ticket
+1015.0,asian,male,traffic violation,TICKET
+1018.0,black,nonbinary,speeding,arrest
+1014.0,white,male,traffic violation,arrest
+,LATINO,NAN,traffic violation,TICKET
+1013.0,asian,nonbinary,SUSPICIOUS ACTIVITY,ticket
+1008.0,WHITE,female,SUSPICIOUS ACTIVITY,ARREST
+1009.0,asian,nonbinary,SUSPICIOUS ACTIVITY,WARNING
+1017.0,ASIAN,male,TRAFFIC VIOLATION,arrest
+1003.0,nan,female,SUSPICIOUS ACTIVITY,warning
+1001.0,ASIAN,MALE,nan,WARNING
+,LATINO,NAN,suspicious activity,arrest
+1011.0,nan,male,SUSPICIOUS ACTIVITY,ticket
+1007.0,WHITE,FEMALE,speeding,ARREST
+,asian,MALE,NAN,NAN
+1018.0,WHITE,MALE,traffic violation,ticket
+1007.0,WHITE,FEMALE,speeding,ARREST
+1011.0,nan,male,SUSPICIOUS ACTIVITY,ticket
+1018.0,asian,NAN,speeding,nan
+1019.0,WHITE,female,SUSPICIOUS ACTIVITY,WARNING
