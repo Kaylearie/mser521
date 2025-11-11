@@ -1,0 +1,62 @@
+#section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  align-items: self-start;
+}
+
+#section-1 .media {
+  max-width: 40vw;
+  aspect-ratio: 5 / 4;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+#section-1 a,
+#section-1 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#section-1 h2 {
+  color: var(--matcha-green);
+  margin-bottom: 10px;
+}
+
+.content-styles {
+  padding: 80px 80px;
+}
+
+/* TODO: Add video-label styles here */
+.video-label {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  flex-direction: row-reverse;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 20px
+
+}
+
+
+/* TODO: Add responsive CSS here */
+
+@media screen and (max-width: 1024px) {
+    #section-1 .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #section-1 .media {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    }
+ 
+    .content-styles{
+      padding: 40px 30px;
+    }
+
+    }
+
