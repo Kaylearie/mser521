@@ -7,11 +7,11 @@ async function getUsers() {
   console.log(users);
 
   // TODO: Print the name of the first user to the console.
-  console.log('1. Print the name of the first user to the console.');
+  console.log(users[0].name);
 
   
   // TODO: Print the email of the last user to the console.
-  console.log('2. Print the email of the last user to the console.');
+  console.log(users[users.length-1].email);
 
 
   // TODO: Print the city of the user with the id of 3 to the console.
@@ -21,11 +21,19 @@ async function getUsers() {
 
   // TODO: Print all of the first names of the users to the console.
   console.log('4. Print all of the first names of the users to the console.');
-  
+for (const user of users) {
+  console.log(user.name)
+}
 
   // TODO: Print all of the first names of the users to the console.
   console.log('5. Print the first name and email of each user to the .container.');
 
+for (const user of users) {
+const container = document.querySelector("#container");
+container.innerHTML += `
+<p>✉️ ${user.name} - ${user.email} </p>
+`
+}
 }
 
 getUsers();
