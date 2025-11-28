@@ -30,3 +30,31 @@
 }
 
 /* TODO: Add responsive CSS here */
+
+@media screen and (max-width: 1024px) {
+  .heading-1.mega {
+    color:black;
+    font-size: 3rem;
+  }
+
+  #section-5 {
+    background: none;
+    padding-top: 16vw;
+  }
+
+  #section-5 .container {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading-1.mega {
+    color:black;
+    font-size: 2rem;
+  }
+}
