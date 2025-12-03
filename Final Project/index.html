@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to utility classes (required for all sections) -->
+    <link rel="stylesheet" href="utility-classes.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Link to JavaScript files -->
+    <script src="nav.js" defer></script>
+    <script src="carousel.js" defer></script>
+
+    <!-- Link to scrolling effects -->
+    <link rel="stylesheet" href="scroll-effects.css">
+    <script src="scroll-effects.js" defer></script>
+
+    <title>Final Project</title>
+</head>
+
+<body>
+    <!-- ============================================
+         NAVIGATION (Exercise 2)
+         ============================================ -->
+    <header>
+        <!-- TODO: Add navigation HTML here -->
+         <nav class="navigation">
+        <div class="left">
+            <div class="nav-links">
+                <a href="#section-2">Why it matters</a>
+                <a href="#section-6">Misc</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav-links">
+                <a href="https://www.greenworkstools.com/?utm_source=google&utm_medium=cpc&utm_campaign=s_sea_b_general-products_greenworks_multi_all_c-us_p_lead_go_en_txt_greenworks_&utm_adid=573302425189&utm_term=greenworks&utm_content=brand-search&gad_source=1&gad_campaignid=15800536957&gbraid=0AAAAAC27RlRh2GXw965S7iPF5DEzGXwPx&gclid=Cj0KCQiAubrJBhCbARIsAHIdxD_Xod6Hm1yL1mOV_RTaeYp9qdKrZZslX-vAy5L023hQ60yNZ08PshkaAokSEALw_wcB" class="btn primary">Shop</a>
+            </div>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    </header>
+
+    <main id="main">
+        <!-- ============================================
+             HERO SECTION (Exercise 1)
+             ============================================ -->
+        <!-- TODO: Add hero section here -->
+
+          <section id="hero" class="hero">
+          <div class="container grid">
+               <article>
+                    <h1 class="mega">Make your lawn aesthetic and go electric!</h1>
+                    <p class="xlarge">Switch from gas to battery powered lawn equipment today</p>
+                    <a class="jump-arrow" href="#section-1">
+                         <span class="accessibility">Jump to first section</span>
+                    </a>
+               </article>
+        <!--Lawn Mower moving-->
+
+        <img src ="images/lawn mower.webp" id="mower"/>
+          </section>
+
+        <!-- ============================================
+             SECTION 1 - VIDEO INTRODUCTION (Exercise 3)
+             ============================================ -->
+        <!-- TODO: Add section 1 (Video Introduction) here -->
+      <section id="section-1" class="panel">
+            <div>
+                <div class="media">
+                    <a href="https://www.youtube.com/watch?v=wotzNe1UyXs&t=7s">
+                            <span class="video-label">
+                            <span class="heading-4">Watch Video</span>
+                            <span class="btn icon large play">
+                            <span class="accessibility">Large icon button</span>
+                            </span>
+                            </span>
+
+                        <div class="cover-image">
+                            <img width="1024" height="573" src="images/Video Thubnail copy.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <article class="content-styles">
+                <h2 class="eyebrow">We all hate having bad gas</h2>
+                <h3 class="heading-4"> Gas powered lawn equipment is noisy, polluting, and contributes to climate change. Watch this video for more information.
+                </h3>
+            </article>
+        </section>
+
+<!-- Add the chart-->
+        <section class="panel">
+            <h2>North Carolina was among the top 10 states for Carbon Emissions from Lawn Equipment in 2020, per a report from Public Interest Network</h2>
+            <div class="chart">
+            <img src="images/Top 10 Emissions States.png" alt="">
+            </div>
+            <p> Data Source: https://publicinterestnetwork.org/wp-content/uploads/2023/10/Lawn_Care_Goes_Electric_Oct23.pdf
+                </p>
+        </section>
+
+        <!-- ============================================
+             SECTION 2 - WHAT WE DO (Exercise 4)
+             ============================================ -->
+        <!-- TODO: Add section 2 (What We Do) here -->
+
+ <!-- Section 2 (What We Do) -->
+        <section id="section-2" class="panel">
+
+            <h2 data-scroll="fade-in" class="heading-1">Benefits of Electric</h2>
+
+            <div class="grid">
+            <!-- TODO: Add 4 cards here using the pattern from style guide -->
+            <!--Train-->
+             <a data-scroll="slide-right" class="btn-container card" href="#">
+                <div class="media fancy-boxes">
+                <img src="images/card-intern.jpg" alt="Intern waters planters with a hose inside greenhouse">
+                </div>
+                <article>
+                    <h3 class="heading-5"><span>Cleaner Air</span></h3>
+                    <p class="small">Reduce the particulate matter released.</p>
+                    <span class="btn icon arrow">
+                        <span class="accessibility">Internships</span>
+                    </span>
+                </article>
+                </a>
+            <!--Conduct-->
+                <a data-scroll="slide-left" data-scroll-delay="100" class="btn-container card" href="#">
+                    <div class="media fancy-boxes">
+                    <img src="images/card-staff.jpg" alt="Three staff members walk one by one into a forest, NAC logos are visible on back of shirts">
+                </div>
+                <article>
+                    <h3 class="heading-5"><span>Reduced Noise</span></h3>
+                    <p class="small">No need to be woken up by a loud leaf blower Saturday morning</p>
+                    <span class="btn icon arrow">
+                        <span class="accessibility">Innovative Research</span>
+                    </span>
+                </article>
+                </a>
+            <!--Connect-->
+                <a data-scroll="slide-right" data-scroll-delay="200" class="btn-container card" href="#">
+                    <div class="media fancy-boxes">
+                    <img src="images/card-program.jpg" alt="Two volunteers smiling wearing safety gloves, one holds a branch">
+                </div>
+                <article>
+                    <h3 class="heading-5"><span>Climate Friendly</span></h3>
+                    <p class="small">Less CO2 emissions</p>
+                    <span class="btn icon arrow">
+                        <span class="accessibility">Connect New Yorkers to Nature</span>
+                    </span>
+                </article>
+                </a>               
+
+            <!--Advocate-->
+                <a data-scroll="slide-left" data-scroll-delay="300" class="btn-container card" href="#">
+                    <div class="media fancy-boxes">
+                    <img src="images/card-advocacy.jpg" alt="Large group of protestors holding Play Fair signs stand on steps of NYC city hall">
+                </div>
+                <article>
+                    <h3 class="heading-5"><span>No gas spills</span></h3>
+                    <p class="small">No need to store gas cans</p>
+                    <span class="btn icon arrow">
+                        <span class="accessibility">Coalition Advocacy</span>
+                    </span>
+                </article>
+                </a>   
+        </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
