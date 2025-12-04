@@ -101,6 +101,15 @@ header {
   gap: 20px
 }
 
+/*Grass Facts */
+
+.grass {
+  border: 2px;
+  animation-delay: 3s;
+}
+
+
+
 /* ============================================
    SECTION 2 - WHAT WE DO
    ============================================ */
