@@ -27,6 +27,11 @@ header {
 
 .chart {
   width: 80%;
+  padding: 10px;
+}
+
+h2 {
+  padding: 10px;
 }
 
 #mower {
